@@ -84,7 +84,8 @@ table th {
   text-align: center;
 }
 
-table button {
+table button, table input[type="submit"]{
+  height: 2em;
   padding: 2px 8px;
   margin-right: 1em;
 }
@@ -94,4 +95,9 @@ table button {
 }
 .ageInput{
   width: 100%;
+}
+.cencelBtn{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
 }
